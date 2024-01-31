@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/kellenff/euler-go/problem_1"
 	"github.com/kellenff/euler-go/problem_2"
+	"github.com/kellenff/euler-go/problem_3"
 	"os"
 	"strconv"
 )
@@ -19,5 +20,8 @@ func main() {
 	case "problem_2":
 		limit, _ := strconv.ParseUint(args[0], 10, 64)
 		fmt.Println(problem_2.Solve(limit))
+	case "problem_3":
+		n, _ := strconv.ParseUint(args[0], 10, 64)
+		fmt.Println(problem_3.Solve(n))
 	}
 }
