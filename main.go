@@ -10,6 +10,7 @@ import (
 	"github.com/kellenff/euler-go/problem_6"
 	"github.com/kellenff/euler-go/problem_7"
 	"github.com/kellenff/euler-go/problem_8"
+	"github.com/kellenff/euler-go/problem_9"
 	"os"
 	"strconv"
 )
@@ -38,5 +39,7 @@ func main() {
 		fmt.Println(problem_7.Solve())
 	case "problem_8":
 		fmt.Println(problem_8.Solve())
+	case "problem_9":
+		fmt.Println(problem_9.Solve())
 	}
 }
