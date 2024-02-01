@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/kellenff/euler-go/problem_1"
+	"github.com/kellenff/euler-go/problem_10"
 	"github.com/kellenff/euler-go/problem_2"
 	"github.com/kellenff/euler-go/problem_3"
 	"github.com/kellenff/euler-go/problem_4"
@@ -41,5 +42,7 @@ func main() {
 		fmt.Println(problem_8.Solve())
 	case "problem_9":
 		fmt.Println(problem_9.Solve())
+	case "problem_10":
+		fmt.Println(problem_10.Solve())
 	}
 }

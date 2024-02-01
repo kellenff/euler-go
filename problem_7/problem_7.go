@@ -1,21 +1,13 @@
 package problem_7
 
-func isPrime(n uint64) bool {
-	for i := uint64(2); i*i <= n; i++ {
-		if n%i == 0 {
-			return false
-		}
-	}
-
-	return n > 1
-}
+import "github.com/kellenff/euler-go/util"
 
 func nthPrime(n uint) uint64 {
 	count := uint(0)
 	num := uint64(2)
 
 	for count < n {
-		if isPrime(num) {
+		if util.IsPrime(num) {
 			count++
 		}
 		num++
